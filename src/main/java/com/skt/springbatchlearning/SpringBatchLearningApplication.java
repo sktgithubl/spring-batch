@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBatchLearningApplication {
 
 	public static void main(String[] args) {
-//		SpringApplication.run(SpringBatchLearningApplication.class, args);
-		System.exit(SpringApplication.exit(SpringApplication.run(SpringBatchLearningApplication.class)));
+		SpringApplication.run(SpringBatchLearningApplication.class, args);
+//		System.exit(SpringApplication.exit(SpringApplication.run(SpringBatchLearningApplication.class)));
 	}
 
 }
